@@ -39,5 +39,6 @@ app.use(bodyParser.json());
 
 Nesse repositório estão alguns exercícios realizados por mim durante o acompanhamento do conteúdo do bloco 26.4 - Express: HTTP com Node.js.
 
-- Após instanciar uma aplicação com o Express, executei requisições entre client e o servidor local dos tipos `GET`, `POST`, `PUT` e `DELETE`.
+- Após instanciar uma aplicação com o Express, executei requisições entre client e o servidor local dos tipos `GET`, `POST`, `PUT` e `DELETE`;
+- Foi possível experienciar formas de comunicação entre o front-end e o back-end acessando propriedades da requisição tais como o `req.params`, `req.query`, `req.body` e `req.header`;
 - Realizei tratando de erros e respostas com status code padrão do HTML, mensagens customizadas e informações em formato JSON.
